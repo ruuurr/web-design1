@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Портфолио Серебряковой Александры — прикладная информатика в дизайне.">
+  <title>Александра Серебрякова — digital portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="header">
+    <div class="header-inner">
+      <a class="monogram" href="#home" aria-label="На главную">АС<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню">
+        <span></span><span></span>
+      </button>
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#about">обо мне</a><a href="#skills">навыки</a><a href="#projects">проекты</a><a href="#contacts">контакты</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Включить светлую тему" title="Переключить тему"><span class="theme-symbol">◐</span></button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="Абстрактный неоновый портрет в синих и красных оттенках"></div>
+      <div class="hero-grid-lines" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="live-dot"></span> DIGITAL PORTFOLIO / 2026</p>
+        <h1 class="hero-title">АЛЕКСАНДРА<span class="title-cross">✳</span></h1>
+        <div class="hero-bottom">
+          <div class="hero-intro">
+            <p class="hero-name">СЕРЕБРЯКОВА АЛЕКСАНДРА</p>
+            <p class="hero-study">ПРИКЛАДНАЯ ИНФОРМАТИКА В ДИЗАЙНЕ<br>4 КУРС · СПбГУПТД</p>
+            <span class="short-line"></span>
+            <p class="hero-description">Создаю цифровые проекты на пересечении дизайна, технологий и визуальных идей. Изучаю, как интерфейсы могут менять повседневный опыт.</p>
+            <a class="outline-button" href="#projects">СМОТРЕТЬ ПРОЕКТЫ <span>↗</span></a>
+          </div>
+          <div class="hero-side-note"><span>01</span><i></i><span>04</span><small>SELECTED<br>PROJECTS</small></div>
+        </div>
+      </div>
+      <div class="hero-corner corner-top">DESIGN / CODE / IDEAS</div>
+      <div class="hero-corner corner-bottom">SAINT PETERSBURG · RUSSIA</div>
+    </section>
+
+    <div class="ticker" aria-label="Направления"><div class="ticker-track"><span>DESIGN</span><b>✳</b><span>CODE</span><b>✳</b><span>IDEAS</span><b>✳</b><span>DIGITAL CULTURE</span><b>✳</b><span>DESIGN</span><b>✳</b><span>CODE</span><b>✳</b><span>IDEAS</span><b>✳</b><span>DIGITAL CULTURE</span><b>✳</b></div></div>
+
+    <section class="section about" id="about">
+      <div class="section-head"><p class="section-kicker">01 / WHO AM I</p><h2>ДИЗАЙН — ЭТО<br><span class="outline-text">СПОСОБ ДУМАТЬ.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-stamp about-photo">
+  <img src="images/about.png" alt="Портрет Александры">
+  <span class="about-photo-label"></span><span>АС</span><i>✳</i><small>DESIGN<br>MEETS TECH</small></div>
+
+        <div class="about-copy">
+          <p class="large-copy">Привет, я Александра — студентка 4 курса СПбГУПТД по направлению «Прикладная информатика в дизайне».</p>
+          <p>Мне интересно соединять визуальную выразительность и функциональность: придумывать концепции, проектировать интерфейсы и воплощать их в веб-страницах. В учебных проектах я исследую разные стили — от чистого UI/UX до экспериментальной цифровой эстетики.</p>
+          <p>Сейчас я развиваю навыки дизайна и веб-разработки и собираю портфолио из учебных работ и собственных концепций.</p>
+          <div class="about-facts"><div><strong>04</strong><span>КУРС</span></div><div><strong>UI/UX</strong><span>ИНТЕРФЕЙСЫ</span></div><div><strong>WEB</strong><span>РАЗРАБОТКА</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-head section-head-row"><div><p class="section-kicker">02 / TOOLKIT</p><h2>НАВЫКИ<span class="red-dot">.</span></h2></div><p class="section-lead">Инструменты и направления, которые использую и изучаю в учебных проектах.</p></div>
+      <div class="skills-grid">
+        <article class="skill"><span class="skill-index">01</span><div class="skill-symbol">✳</div><h3>UI / UX DESIGN</h3><p>Структура экранов, визуальная иерархия, пользовательские сценарии и прототипирование.</p><div class="skill-tags"><span>Figma</span><span>Wireframes</span></div></article>
+        <article class="skill"><span class="skill-index">02</span><div class="skill-symbol code-symbol">&lt;/&gt;</div><h3>WEB DEVELOPMENT</h3><p>Создание структуры страниц, адаптивная вёрстка и базовая интерактивность.</p><div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="skill"><span class="skill-index">03</span><div class="skill-symbol">◈</div><h3>VISUAL DESIGN</h3><p>Работа с цветом, типографикой, композицией и визуальным языком проекта.</p><div class="skill-tags"><span>Typography</span><span>Composition</span></div></article>
+        <article class="skill"><span class="skill-index">04</span><div class="skill-symbol">⌘</div><h3>CONCEPT & RESEARCH</h3><p>Поиск идеи, сбор референсов, оформление концепции и презентация результата.</p><div class="skill-tags"><span>Research</span><span>Presentation</span></div></article>
+      </div>
+    </section>
+<section class="section projects" id="projects">
+  <div class="section-head section-head-row">
+    <div>
+      <p class="section-kicker">03 / SELECTED WORKS</p>
+      <h2>ИЗБРАННЫЕ<br><span class="outline-text">ПРОЕКТЫ</span><span class="red-dot">.</span></h2>
+    </div>
+    <p class="section-lead">Учебные проекты и концепции. Выберите категорию, чтобы отфильтровать работы.</p>
+  </div>
+
+  <div class="filters" role="group" aria-label="Фильтр проектов">
+    <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">ВСЕ <span>04</span></button>
+    <button class="filter" type="button" data-filter="design" aria-pressed="false">ДИЗАЙН <span>03</span></button>
+    <button class="filter" type="button" data-filter="development" aria-pressed="false">ВЕБ-РАЗРАБОТКА <span>01</span></button>
+  </div>
+
+  <p class="filter-status" id="filter-status" aria-live="polite">Показаны все проекты: 4</p>
+
+  <div class="projects-grid" id="projects-grid">
+
+    <!-- 01. NORI -->
+    <article class="project-card" data-category="design">
+      <div class="project-art image-slot plant-art">
+        <img
+          class="project-image"
+          src="images/nori.png"
+          alt="Промо-сайт и интерфейсы приложения Nori для ухода за растениями"
+          loading="lazy">
+        <span class="art-code">FIG. 001 / NORI APP</span>
+      </div>
+
+      <div class="project-info">
+        <div class="project-meta">
+          <span>01 — ДИЗАЙН / UI/UX</span>
+          <span>УЧЕБНЫЙ ПРОЕКТ</span>
+        </div>
+        <h3>Nori — умный уход за растениями</h3>
+        <p>Промо-сайт приложения Nori и разработка интерфейсов веб-приложения. Nori анализирует условия вашей квартиры и подбирает растения, которые приживутся с учётом освещённости, площади, влажности и сезона.</p>
+        <div class="project-foot">
+          <span>ПРОМО-САЙТ · UI/UX</span>
+          <a href="#contacts">ОБСУДИТЬ <b>↗</b></a>
+        </div>
+      </div>
+    </article>
+
+    <!-- 02. ASURI -->
+    <article class="project-card" data-category="development">
+      <div class="project-art image-slot asuri-art">
+        <img
+          class="project-image"
+          src="images/asuri.png"
+          alt="Веб-сайт ASURI — каталог вязаных игрушек амигуруми"
+          loading="lazy">
+        <span class="art-code">FIG. 002 / ASURI WEBSITE</span>
+      </div>
+
+      <div class="project-info">
+        <div class="project-meta">
+          <span>02 — ВЕБ-РАЗРАБОТКА</span>
+          <span>УЧЕБНЫЙ ПРОЕКТ</span>
+        </div>
+        <h3>ASURI — амигуруми на заказ</h3>
+        <p>Разработка веб-сайта для проекта вязаных игрушек ASURI: презентация изделий, каталог с моделями и ценами, а также страница оформления заказа.</p>
+        <div class="project-foot">
+          <span>HTML · CSS · JAVASCRIPT</span>
+          <a href="#contacts">ОБСУДИТЬ <b>↗</b></a>
+        </div>
+      </div>
+    </article>
+
+    <!-- 03. LINKAN -->
+    <article class="project-card" data-category="design">
+      <div class="project-art image-slot linkan-art">
+        <img
+          class="project-image"
+          src="images/linkan.png"
+          alt="Linkan — концепция настольного робота и мобильного приложения"
+          loading="lazy">
+        <span class="art-code">FIG. 003 / PRODUCT DESIGN</span>
+      </div>
+
+      <div class="project-info">
+        <div class="project-meta">
+          <span>03 — ДИЗАЙН ПРОДУКТА</span>
+          <span>УЧЕБНЫЙ ПРОЕКТ</span>
+        </div>
+        <h3>Linkan — робот-помощник</h3>
+        <p>Разработка дизайна настольного робота-помощника Linkan и создание его 3D-модели. Дополнительно спроектирован дизайн мобильного приложения для оформления и взаимодействия с устройством.</p>
+        <div class="project-foot">
+          <span>3D · PRODUCT DESIGN · UI/UX</span>
+          <a href="#contacts">ОБСУДИТЬ <b>↗</b></a>
+        </div>
+      </div>
+    </article>
+
+    <!-- 04. SBER -->
+    <article class="project-card" data-category="design">
+      <div class="project-art image-slot sber-art">
+        <img
+          class="project-image"
+          src="images/sber.png"
+          alt="Проект выставочного пространства для Сбербанка"
+          loading="lazy">
+        <span class="art-code">FIG. 004 / EXHIBITION DESIGN</span>
+      </div>
+
+      <div class="project-info">
+        <div class="project-meta">
+          <span>04 — ПРОСТРАНСТВО / АЙДЕНТИКА</span>
+          <span>ПРОЕКТ</span>
+        </div>
+        <h3>Выставочное пространство — Сбербанк</h3>
+        <p>Разработка концепции выставочного пространства для Сбербанка: 3D-моделирование, визуальная айдентика и оформление среды, включая дизайн вывесок и навигационных элементов.</p>
+        <div class="project-foot">
+          <span>3D · АЙДЕНТИКА · ENVIRONMENT</span>
+          <a href="#contacts">ОБСУДИТЬ <b>↗</b></a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="empty-state" id="empty-state" hidden>
+    В этой категории пока нет проектов.
+  </div>
+</section>
+
+    <section class="manifesto"><div class="manifesto-glow"></div><p class="section-kicker">DESIGN × TECHNOLOGY</p><h2>НЕ ПРОСТО<br>ИНСТРУМЕНТЫ<span class="red-dot">.</span><br><span class="outline-text">НОВЫЙ ЯЗЫК.</span></h2><div class="manifesto-bottom"><span>ЭСТЕТИКА<br>ФУНКЦИОНАЛЬНОСТЬ<br>БУДУЩЕЕ</span><p>Дизайн и технологии — это не просто инструменты. Это язык, на котором я хочу говорить с миром.</p><span class="manifesto-cross">✳</span></div></section>
+
+    <section class="contact-section" id="contacts"><div class="contact-backdrop"></div><div class="contact-content"><p class="section-kicker">04 / GET IN TOUCH</p><h2>ДАВАЙ<br>СОЗДАВАТЬ<br><span>БУДУЩЕЕ.</span></h2><div class="contact-right"><p>ЕСТЬ ИДЕЯ ИЛИ ИНТЕРЕСНЫЙ ПРОЕКТ?</p><p>Открыта к учебным коллаборациям, новым задачам и обмену идеями.</p><a class="outline-button" href="mailto:sanyaserebryakova23@gmail.com">НАПИСАТЬ МНЕ <span>↗</span></a><small></small></div></div></section>
+  </main>
+
+  <footer class="footer"><a class="monogram" href="#home">АС<span>.</span></a><p>СОЗДАНО С ПОМОЩЬЮ CHATGPT <span>·</span> ФИЛЬТР <span>·</span> ТЕМА <span>·</span> МОБИЛЬНОЕ МЕНЮ</p><span>© 2026</span></footer>
+</body>
+</html>
